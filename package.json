@@ -16,9 +16,9 @@
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "https://github.com/Krystian228/redux-react-test/",
+  "homepage": "https://krystian228.github.io/redux-react-test/",
   "devDependencies": {
     "@testing-library/jest-dom": "^4.1.0",
     "@testing-library/react": "^9.1.4",
