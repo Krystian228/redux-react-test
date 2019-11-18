@@ -43,7 +43,6 @@ function App() {
 
   return (
     <main>
-      {console.log(data)}
       <h1>List of episodes <button onClick={()=>toggleEpisodes()}>{showEpisodes?'show all':'hide'}</button></h1>
       {data.data && data.data.length > 0 && data.data.map(item => 
         <Card 
